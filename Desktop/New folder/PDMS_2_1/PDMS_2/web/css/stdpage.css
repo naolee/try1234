@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Norwester;
+    src: url(css/norwester.woff);
+}
+body {
+    font-family: Century Gothic;
+    font-size: 14px;
+}
+h3{
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;}
+li {
+    float: left;}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+li a:hover:not(.active) {
+    background-color: #111;}
+.active {
+    background-color: #739EA7;
+}
+#td1 {
+    border: 0.09em solid #476b6b;
+    border-radius: 0.5em;
+    vertical-align: middle;
+}
+
+#td2 {
+    border: 0.09em solid #476b6b;
+    border-radius: 0.5em;
+    background-color: #e6f2ff;
+    vertical-align: middle;
+}
+
+#logout{
+    float: right;
+}
+
